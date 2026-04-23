@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <form action="#home">
+            <button type="submit" class="nav-bar">Home</button>
+        </form>
+        <form action="#aboutMe">
+            <button type="submit" class="nav-bar">About</button>
+        </form>
+        <form action="#myProjects">
+            <button type="submit" class="nav-bar">Projects</button>
+        </form>
+        <form action="#email">
+            <button type="submit">Get in Touch</button>
+        </form>
+    </nav>
+    <header id="home"> 
+        <h1>Hey! I'm Simran Bilku </h1>
+        <h2>A Junior Software Developer based in the UK.</h2>
+    </header>
+    <main>
+        <h3>About Me</h3>
+        <div id="aboutMe">   
+            <img id="picture" src="simran.jpeg" alt="Picture of Simran Bilku">
+            <p id="about"> I'm an enthuastic graduate with a biomedical science and computer science background. I started with a BSc in Biomedical Science at the University of Birmingham, where I achieved a 2:1 and developed a strong foundation in
+            healthcare and research methodology. After completing my biomedical degree, I realized I wanted to strengthen my technical capabilities, so
+            I pursued a conversion MSc in Computer Science. This was quite a transition, I went from having no programming experience to developing a full web-based e-learning
+            platform in just over a year. The project focused on using gamification to teach Python to beginners, and it taught me a lot about research design,
+            user-centered development, and time-management. Since graduating, I’ve been working as a data annotator for AI training projects, but I'm looking to transition into a Junior Developer role. I enjoy the combination of problem-solving and creativity needed to be a developer, and wish to use these skills to help build meaningful software. </p>  
+        </div>
+        <h3 id="technicalSkillsTitle">Technical Skills</h3>
+        <div class="technical-skills">
+            <p> I have a strong foundation in Python and Java, as well as front-end web technologies including HTML, SCSS, and JavaScript. On the back end, I've worked with PostgreSQL for database management and have used both Flask and Spring Boot as my primary web frameworks, utilising Bootstrap for responsive UI design. My development workflow is supported by industry-standard tooling, including Git and Github for version control and collaboration, and IDEs such as VS Code and PyCharm for coding. </p>
+                <div id="logoContainer">
+                    <div>
+                        <img class="logo" src="git-logo.png" alt="Git Logo"> 
+                            <p class="label">Git</p>
+                        <img class="logo" src="html-logo.png" alt="HTML Logo">
+                            <p class="label">HTML5</p>
+                        <img class="logo" src="css-logo.png" alt="CSS Logo">
+                            <p class="label">CSS3</p>
+                    </div>
+                    <div>
+                        <img class="logo" src="javascript-logo.png" alt="JavaScript Logo">
+                            <p class="label">JavaScript</p>
+                        <img class="logo" src="scss-logo.png" alt="SCSS Logo">
+                            <p class="label">SCSS</p>
+                        <img class="logo" src="bem-logo.png" alt="BEM Logo">
+                            <p class="label">BEM</p>
+                    </div>
+                    <div>
+                    <img class="logo" src="react-logo.png" alt="React Logo">
+                        <p class="label">React</p>
+                    <img class="logo" src="java-logo.png" alt="Java Logo">
+                        <p class="label">Java</p>
+                    <img class="logo" src="spring-boot-logo.png" alt="Spring Boot Logo">
+                        <p class="label">Spring Boot</p>
+                    </div>
+                </div>
+        </div>
+        <h3>My Projects</h3>
+        <div id="myProjects">
+            <img id="projectCard" src="project-card.png" alt="Project Card">
+                <h4>Python Learning Platform</h4>
+                    <p> I developed a Python Learning Platform to teach Python to beginners. The platform utilised gamification elements and a story-driven narrative to make learning fun and engaging. The user roleplays as a robot, progressing with missions that gradually introduce python concepts, and unlocking new robot avatars as the user progresses. Key features include: story-driven missions, quizzes, progress tracking with XP and level system, points, badges, and a leaderboard system to motivate continued learning. </p>
+                        <form action="https://github.com/simranbilku/python-learning-platform">
+                            <button type="submit">Code</button>
+                        </form>
+        </div>
+    <footer> 
+        <p id="email">sbilku@hotmail.co.uk</p>     
+    </footer>
+</body>
+</html>
