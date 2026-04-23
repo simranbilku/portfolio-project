@@ -177,12 +177,13 @@ h4 {
 #projectCard {
     display: block;
     width: 60vw;
-    height: 60vh;
+    height: 45vh;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
 
     @include mixins.phone {
+        width: 70vw;
         height: 30vh;
     }
 }
